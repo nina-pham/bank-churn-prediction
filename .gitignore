@@ -1,0 +1,40 @@
+# Data files (download from Kaggle — don't commit large CSVs)
+*.csv
+*.tsv
+*.xlsx
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+venv/
+env/
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Model artifacts (add back if you want to version models)
+*.pkl
+*.joblib
+*.h5
+models/
