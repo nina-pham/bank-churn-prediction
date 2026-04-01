@@ -113,7 +113,7 @@ Cohen's Kappa is reported alongside accuracy because the dataset is class-imbala
 
 The model outputs translate directly into retention actions:
 
-- **Early warning triggers:** Flag customers whose `Total_Trans_Ct` drops >20% quarter-over-quarter for proactive outreach — this feature is the single strongest churn predictor and is observable in near-real-time.
+- **Early warning triggers:** Flag customers whose `Total_Trans_Ct` drops >20% quarter-over-quarter for proactive outreach, this feature is the single strongest churn predictor and is observable in near-real-time.
 - **High-value at-risk segment:** Customers with high credit limits but low and declining utilization are disproportionately represented in the churn group. These are often the most valuable customers to retain — prioritize them for personalized offers.
 - **Segment-level campaigns:** K-Means clusters reveal distinct behavioral profiles. Rather than a one-size-fits-all retention strategy, cluster labels can be used to tailor messaging — e.g., transaction reactivation offers for low-activity clusters vs. fee waiver campaigns for high-contact, high-inactivity segments.
 - **Model transparency for stakeholders:** SHAP waterfall plots make individual predictions auditable, which matters for customer-facing decisions in regulated environments.
